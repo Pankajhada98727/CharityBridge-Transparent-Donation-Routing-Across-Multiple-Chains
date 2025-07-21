@@ -13,6 +13,7 @@ contract CharityBridge is Ownable {
         bool verified;
     }
 
+
     struct Donation {
         address donor;
         uint256 amount;

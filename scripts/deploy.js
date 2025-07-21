@@ -8,6 +8,7 @@ async function main() {
   const charityBridge = await CharityBridge.deploy(tokenAddress);
 
   await charityBridge.deployed();
+  
 
   console.log("CharityBridge contract deployed to:", charityBridge.address);
 }

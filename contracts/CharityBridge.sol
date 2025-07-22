@@ -20,6 +20,7 @@ contract CharityBridge is Ownable {
         uint256 charityId;
         uint256 timestamp;
         uint256 originChain;
+
     }
 
     uint256 public charityCount;

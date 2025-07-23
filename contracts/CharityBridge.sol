@@ -42,7 +42,8 @@ contract CharityBridge is Ownable {
         string memory _description,
         address _walletAddress,
         uint256 _chainId
-    ) external onlyOwner {
+    ) external onlyOwner 
+{
         uint256 charityId = charityCount++;
         charities[charityId] = Charity({
             name: _name,

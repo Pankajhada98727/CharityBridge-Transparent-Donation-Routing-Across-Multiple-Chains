@@ -27,6 +27,7 @@ contract CharityBridge is Ownable {
 
     }
 
+
     uint256 public charityCount;
     mapping(uint256 => Charity) public charities;
     mapping(address => Donation[]) public donorHistory;
